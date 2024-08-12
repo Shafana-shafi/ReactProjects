@@ -1,0 +1,14 @@
+.storybook/
+node_modules/
+plop-templates/
+public/
+.eslintrc.cjs
+package-lock.json
+package.json
+plopfile.js
+tailwind.config.js
+tsconfig.app.json
+tsconfig.jsontsconfig.node.json
+vite.config.ts
+tsconfig.json
+tsconfig.node.json

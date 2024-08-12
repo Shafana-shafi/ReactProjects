@@ -1,0 +1,37 @@
+/* Widget.css */
+.widget {
+  border: 1px solid;
+  padding: 16px;
+  margin: 16px 0;
+  position: relative;
+  border-radius: 8px;
+}
+
+.symbol {
+  position: absolute;
+  /* top: 8px;
+  left: 8px; */
+  left:0;
+  transform: translate(-50%,-50%);
+  font-size: 24px;
+  border-radius: 40% 40%;
+  background-color: #ddeeff;
+}
+
+.widget.error {
+  border-color: red;
+  background-color: #ffdddd;
+  color: red;
+}
+
+.widget.info {
+  border-color: blue;
+  background-color: #ddeeff;
+  color: green;
+}
+
+.widget.warning {
+  border-color: rgb(174, 124, 29);
+  background-color: #ecf065;
+  color: rgb(164, 164, 15);
+}
