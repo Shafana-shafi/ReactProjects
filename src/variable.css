@@ -1,0 +1,34 @@
+:root {
+  /* Button Styling */
+  --button-bg-color: #00474b;
+  --button-text-color: white;
+  --button-font-size: 2rem;
+  --button-font-family: "Space Mono", monospace;
+  --button-padding: 0.625rem;
+  --button-focus-bg-color: #26c2ad;
+  
+  /* Reset Button Styling */
+  --reset-bg-color: #0d686d;
+  --reset-font-size: 1.5rem;
+  --reset-text-color: #00474b;
+  --reset-focus-bg-color: #26c2ad;
+  
+  /* Container Styling */
+  --container-bg-color: #00474b;
+  --container-padding: 43px;
+  --container-border-radius: 16px;
+  
+  /* Input Styling */
+  --input-bg-color: #f9f9f9;
+  --input-border-color: transparent;
+  --input-focus-border-color: #26c2ad;
+  --input-error-border-color: rgba(182, 73, 73, 0.838);
+  
+  /* Error Message Styling */
+  --error-color: rgba(182, 73, 73, 0.838);
+  
+  /* Text Styling */
+  --text-color: #5d6b6c;
+  --label-font-size: 1.25rem;
+  --custom-button-font-size: 1.5rem;
+}
